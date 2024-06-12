@@ -24,9 +24,9 @@ function playRound(playerSelection, computerSelection) {
 	if (playerSelection === computerSelection) {
 		return "It's a tie.";
 	} else if (
-		(playerSelection === "rock" && computerSelection === "scissors") ||
-		(playerSelection === "paper" && computerSelection === "rock") ||
-		(playerSelection === "scissors" && computerSelection === "paper")
+		(playerSelection === "Rock" && computerSelection === "Scissors") ||
+		(playerSelection === "Paper" && computerSelection === "Rock") ||
+		(playerSelection === "Scissors" && computerSelection === "Paper")
 	) {
 		selfScore++;
 		selfScoreEl.textContent = selfScore;
